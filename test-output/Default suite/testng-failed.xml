@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="f1.SweetShopTest1">
+        <methods>
+          <include name="testMenuLinks"/>
+          <include name="tearDown"/>
+          <include name="testBasketFunctionality"/>
+          <include name="returnHome"/>
+          <include name="testHomePageLoads"/>
+          <include name="testDiscountSalesBanner"/>
+          <include name="testBasketInput"/>
+          <include name="testLogin"/>
+          <include name="testAllSweetsHaveImages"/>
+          <include name="testLogoVisibility"/>
+          <include name="setUp"/>
+          <include name="testBrowseSweetsButton"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

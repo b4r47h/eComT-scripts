@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="f1.SweetShopTest2">
+        <methods>
+          <include name="emptyBasket"/>
+          <include name="su"/>
+          <include name="End"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest2 -->
+      <class name="f1.SweetShopTest5">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testNameFieldValidation"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest5 -->
+      <class name="f1.SweetShopTest3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSocialMediaLinks"/>
+          <include name="testCheckouFieldValidation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest3 -->
+      <class name="f1.SweetShopTest6">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testVisiblePriceInBasket"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest6 -->
+      <class name="f1.SweetShopTest4">
+        <methods>
+          <include name="testSaleBannerHyperlink"/>
+          <include name="testLoginWithInvalidCredentials"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest4 -->
+      <class name="f1.SweetShopTest7">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testPromoCodeFunctionality"/>
+          <include name="testZipFieldValidation"/>
+          <include name="testCheckoutButtonRedirect"/>
+          <include name="testPaymentCardNameValidation"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest7 -->
+      <class name="f1.SweetShopTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="returnHome"/>
+          <include name="testBasketInput"/>
+          <include name="testAllSweetsHaveImages"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- f1.SweetShopTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

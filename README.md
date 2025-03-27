@@ -2,6 +2,9 @@
 
 This repository contains Selenium-based automated test scripts for the SweetShop website. The project is structured using Maven and TestNG, making it easy to execute and manage test cases.
 
+### Test Case Document & Bug Report  
+[View Test Cases & Bug Reports](https://docs.google.com/spreadsheets/d/1RZ52fhg-d1qjp52hBYxP2B77zmJKBND2iSqip77iotM/edit?usp=sharing)
+
 ## Project Structure
 ```
 AuPr/
